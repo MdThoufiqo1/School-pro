@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css'
-import vimg from '../assets/images/Visit.jpeg'
+import vimg from '../assets/images/visit.jpeg'
 import bus from '../assets/images/bus.jpg'
 import game from '../assets/images/game.jpg'
 
