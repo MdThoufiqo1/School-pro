@@ -3,7 +3,7 @@ import Slider from './Slider'
 import About from './About'
 import Visit from './Visit'
 import Student from './Student'
-import Activies from './Activies';
+import Activie from './Activie'
 
 
 function Home() {
@@ -13,7 +13,7 @@ function Home() {
       <About/>
       <Student/>
       <Visit/>
-      <Activies/>
+      <Activie/>
     </div>
   )
 }

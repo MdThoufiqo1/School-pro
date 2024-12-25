@@ -2,13 +2,10 @@ import React from 'react'
 import "../App.css"
 import event_data from '../assets/data'
 
-
-
-
-const Activies = () => {
+const Activie = () => {
   return (
     <>
-    <div className='bg-card1 p-3 '>
+      <div className='bg-card1 p-3 '>
       <div className='stud-card'>
       <h1 className='act-head'>Co-curricular Activities</h1>
       </div>
@@ -33,4 +30,4 @@ const Activies = () => {
   )
 }
 
-export default Activies
+export default Activie
