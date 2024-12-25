@@ -3,7 +3,7 @@ import Slider from './Slider'
 import About from './About'
 import Visit from './Visit'
 import Student from './Student'
-import Activies from './activies'
+import Activies from './Activies';
 
 
 function Home() {

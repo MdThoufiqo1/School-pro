@@ -5,7 +5,7 @@ import event_data from '../assets/data'
 
 
 
-const activies = () => {
+const Activies = () => {
   return (
     <>
     <div className='bg-card1 p-3 '>
@@ -13,7 +13,7 @@ const activies = () => {
       <h1 className='act-head'>Co-curricular Activities</h1>
       </div>
     <div className=" card1">
-      {event_data.map((e,index)=>(
+      {event_data.map((e,index)=> (
         <div className="card card-compact bg-base-100 w-96 shadow-xl m-3 bg-warning" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" key={index}>
@@ -33,4 +33,4 @@ const activies = () => {
   )
 }
 
-export default activies
+export default Activies
